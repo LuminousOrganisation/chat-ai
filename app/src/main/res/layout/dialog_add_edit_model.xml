@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Model"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/model_pic_preview"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/app_icon"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edit_model_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model Name"
+        android:inputType="textCapWords"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edit_model_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Model Details (e.g., personality traits)"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:maxLines="5"
+        android:gravity="top|start"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

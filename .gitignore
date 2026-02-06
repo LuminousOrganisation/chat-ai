@@ -1,0 +1,22 @@
+# Build folders (This is what caused your error)
+/build
+/app/build
+.gradle/
+
+# IDE files
+.idea/workspace.xml
+.idea/libraries
+*.iml
+
+# Local configs (Contains your private SDK paths)
+local.properties
+
+# Logs and temp files
+*.log
+captures/
+.externalNativeBuild
+.cxx/
+
+# Output files
+*.apk
+*.aab

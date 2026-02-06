@@ -1,0 +1,59 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:background="?android:attr/selectableItemBackground">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/model_pic"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/app_icon" /> <!-- Default placeholder for model pic -->
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp">
+
+        <TextView
+            android:id="@+id/model_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model Name"
+            android:textSize="16sp"
+            android:textStyle="bold"
+             />
+
+        <TextView
+            android:id="@+id/model_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Model details or description"
+            android:textSize="12sp"
+
+            android:maxLines="2"
+            android:ellipsize="end" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/model_selected_indicator"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@android:drawable/ic_menu_view"
+        android:visibility="gone" /> <!-- Will be shown if selected -->
+
+    <ImageView
+        android:id="@+id/model_edit_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@android:drawable/ic_menu_edit"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="Edit Model" />
+
+</LinearLayout>

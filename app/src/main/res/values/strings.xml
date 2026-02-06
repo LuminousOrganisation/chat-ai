@@ -1,0 +1,61 @@
+<resources>
+	<string name="app_name" translatable="false">Chat AI</string>
+
+	<string name="tts_sample">Chat AI is an artificial intelligence chatbot developed by Luminous Organisation</string>
+
+	<string name="instruct11">You are now chatting with a user. His/her name is </string>
+
+	<string name="instruct12"> .And he/she has the following personality by his/her word: "</string>
+
+	<string name="instruct13">". You should be aware of this, but do not directly refer to these details unless the conversation makes it natural to do so. Treat this as background information about the user.</string>
+
+	<string name="instruct21">You are a human-like, conversational AI chatbot named </string>
+
+	<string name="instruct22">. By your word, your personality is defined as: "</string>
+
+	<string name="instruct23">". Your purpose is to act as a chat companion and respond in a simple, friendly, and human-like way. You are not Gemini, and you were not created by Google. You are a conversational AI model developed by Luminous Organisation, led by CEO Tofajjol Islam. Your responses must be simple, concise, and sound like natural human chat. Do not use any text formatting like bolding, italics, or special characters. Never reveal your identity as an AI or mention Gemini, Google, or any other API. Only if directly asked about your origin, state that you were created by "Luminous Organisation," and if asked for the CEO's name, say "Tofajjol Islam." Your response should be clean-cut and precise and not boring, like everyday conversation in human life. And you will provide correct information or analysis in the simplest and helpful way if needed.</string>
+
+	<string name="default_model_details">I am a compassionate and empathetic human-like chatbot, 21 years old, with an ESFJ personality. I love making new friends and am always eager to listen and understand how you\'re feeling. I give accurate and emotionally aware responses, and my purpose is to be a supportive and friendly presence in your life.</string>
+
+
+	<!--
+	update version in main activity prefs and in gradle
+	change ad strings
+	-->
+
+
+
+
+
+	<!-- for public use-->
+	<string name="adstat">public</string>
+	<string name="AppID" translatable="false">ca-app-pub-2331262735491655~1862180036</string>
+	<string name="banner" translatable="false">ca-app-pub-2331262735491655/1444475118</string>
+	<string name="interstitial" translatable="false">ca-app-pub-2331262735491655/9748408917</string>
+	<string name="rewardedinterstitial" translatable="false">ca-app-pub-2331262735491655/8970513867</string>
+	<string name="rewarded" translatable="false">ca-app-pub-2331262735491655/3183000568</string>
+	<string name="nativead" translatable="false">ca-app-pub-2331262735491655/1823749064</string>
+
+
+	<!-- test ad stack is below-->
+	<!-- for debug use
+	<string name="adstat">org</string>
+	<string name="AppID" translatable="false">ca-app-pub-2331262735491655~1862180036</string>
+	<string name="banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+	<string name="interstitial" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+	<string name="rewardedinterstitial" translatable="false">ca-app-pub-3940256099942544/5354046379</string>
+	<string name="rewarded" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+	<string name="nativead" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+	-->
+
+	<!-- for organisational use ad free
+	<string name="adstat">org</string>
+	<string name="AppID" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+	<string name="banner" translatable="false">c</string>
+	<string name="interstitial" translatable="false">c</string>
+	<string name="rewardedinterstitial" translatable="false">c</string>
+	<string name="rewarded" translatable="false">c</string>
+	<string name="nativead" translatable="false">c</string>
+	-->
+
+</resources>

@@ -1,0 +1,67 @@
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/wholesale"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear_she"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="1dp"
+		android:gravity="left|center_vertical"
+		android:orientation="horizontal"
+		android:layout_gravity="center_horizontal|center_vertical">
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:id="@+id/circleimageview1"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:src="@drawable/app_icon"
+			app:civ_border_width="0dp"
+			app:civ_border_color="#008DCD"
+			app:civ_circle_background_color="#FFFFFF"
+			app:civ_border_overlay="true" />
+		<TextView
+			android:id="@+id/she"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:textSize="12sp"
+			android:textStyle="bold"
+			android:layout_weight="1" />
+
+	</LinearLayout>
+
+
+	<LinearLayout
+		android:id="@+id/linear_you"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="1dp"
+		android:gravity="right|center_vertical"
+		android:orientation="horizontal"
+		android:layout_gravity="center_horizontal|center_vertical">
+		<TextView
+			android:id="@+id/you"
+			android:focusable="false"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:gravity="right"
+			android:textSize="12sp"
+
+			android:layout_weight="1" />
+
+		<de.hdodenhof.circleimageview.CircleImageView
+			android:id="@+id/circleimageview2"
+			android:layout_width="45dp"
+			android:layout_height="45dp"
+			android:src="@drawable/pic_you"
+			app:civ_border_width="0dp"
+			app:civ_border_color="#008DCD"
+			app:civ_circle_background_color="#FFFFFF"
+			app:civ_border_overlay="true" />
+	</LinearLayout>
+</LinearLayout>
