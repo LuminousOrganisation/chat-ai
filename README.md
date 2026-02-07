@@ -15,7 +15,7 @@ For the **Gemini 3 Global Hackathon**, we integrated the latest model family to 
 
 ### 📍 Core AI Logic Location:
 The primary Gemini 3 integration and prompt-engineering logic can be found at:  
-`app/src/main/java/luminous/organisation/Miya/ChatActivity.kt`  
+`app/src/main/java/luminous/organisation/Miya/ChatActivity.java`  
 *(Note: Prototyping artifacts and legacy code from the Miya-to-Luminous evolution are present in the repo but do not affect the Gemini 3 core).*
 
 ---
