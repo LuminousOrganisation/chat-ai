@@ -29,8 +29,31 @@ The primary Gemini 3 integration and prompt-engineering logic can be found at:
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Technical Structure
 - **Language:** Kotlin / Java (Android 5.0+)
 - **AI SDK:** Google AI Studio (Gemini 3 API)
 - **Voice Engine:** Android Text-To-Speech API
 - **Workflow:** Developed using a 'Vibe Coding' methodology with Gemini 3.
+
+
+---
+
+## 🚀 Getting Started
+### **Requirements**
+* Android 5.0 (Lollipop) or higher.
+* An active Gemini API Key (configured in the app settings).
+* English (UK) system language recommended.
+
+### **Installation**
+1.  Clone this repository:
+    ```bash
+    git clone [https://github.com/LuminousOrganisation/chat-ai.git](https://github.com/LuminousOrganisation/chat-ai.git)
+    ```
+2.  Open the project in **Android Studio**.
+3.  Build and run the app on your physical device or emulator.
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
